@@ -1,3 +1,25 @@
-h1 {
-  @extend %h1;
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #0075ff;
+}
+
+p {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.text-blue {
+  color: #0075ff;
+}
+
+.article-text--bold {
+  font-weight: 700;
 }

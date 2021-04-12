@@ -1,7 +1,70 @@
 @import "utils";
-@import "fonts";
 @import "typography";
+@import "../styles/blocks/header.scss";
+@import "../styles/blocks/about.scss";
+@import "../styles/blocks/gallery.scss";
+@import "../styles/blocks/testimonials.scss";
+@import "../styles/blocks/contact-us.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+}
 
 body {
-  background: $c-gray;
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.main {
+  &__content {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  &__title-container {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: -1.5px;
+  }
+
+  &__title-sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 360px;
+  background-image: url("../images/footer.png");
+  background-size: cover;
+  background-position: 50%;
+
+  &__miami-logo {
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75px;
+    width: 115px;
+    position: relative;
+    top: 100px;
+  }
 }
