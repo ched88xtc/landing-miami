@@ -1,25 +1,21 @@
-.main__about-us {
+.about-us {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 105px 20px 0;
-}
 
-.about-us__title {
-  font-size: 48px;
-  letter-spacing: -2px;
-  margin-bottom: 48px;
-}
-
-.about-us__article-title {
-  margin-bottom: 20px;
+  &__title {
+    font-size: 48px;
+    letter-spacing: -2px;
+    margin-bottom: 48px;
+  }
+  
+  &__article-title {
+    margin-bottom: 20px;
+  }
 }
 
 .article-text {
   margin-bottom: 30px;
-}
-
-.main__content {
-  width: 100%;
 }
 
 .text-p3 {
@@ -31,6 +27,10 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 40px 20px 0;
+  }
+
+  .about-us__title {
+    font-size: 36px;
   }
   .article-text {
     font-size: 16px;

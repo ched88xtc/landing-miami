@@ -3,8 +3,7 @@
 
   &__container {
     padding-top: 70px;
-    display: flex;
-    justify-content: space-between;
+    @include flex-space-between;
     flex-wrap: wrap;
   }
 
@@ -41,8 +40,6 @@
 
 @media (max-width: 820px) {
   .testimonials__container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-items-center;
   }
 }

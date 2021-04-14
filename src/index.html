@@ -37,7 +37,7 @@
               <div class="menu__call-to-order-container">
                 <p class="menu__phone-number">+1 234 555-55-55</p>
                 <a class="menu__call-btn">
-                  <a href="#" class="call-btn">CALL TO ORDER</a>
+                  <a href="tel:+12345555555" class="call-btn">CALL TO ORDER</a>
                 </a>
               </div>
             </ul>
@@ -46,7 +46,9 @@
             <div class="header__burgermenu">
               <span class="burgermenu-icon"></span>
             </div>
-            <div class="header__miami-logo"></div>
+            <a href="#" class="header__miami-logo-link">
+              <div class="header__miami-logo"></div>
+            </a>
             <a class="header__phone-icon"  href="tel:+12345555555"  >
               <span class="header__phone-number">+1 234 555-55-55</span>
             </a>
@@ -59,7 +61,7 @@
         <!--#region ABOUT-US-->
         <section class="main__about-us about-us" id="about-us">
           <h2 class="about-us__title">
-            Miami&nbsp;best<br> Real&nbsp;estate&nbsp;<span class="text-blue">here</span>
+            Miami&nbsp;best<br> Real&nbsp;estate&nbsp;<a href="#" class="text-blue">here</a>
           </h2>
           <div class="about-us__article">
             <h3 class="about-us__article-title">Over 50 years experience in love.</h3>
@@ -123,7 +125,10 @@
                 >
               </div>
               <p class="gallery__under-images-text">
-                <a href="#" class="gallery__under-images-link">Marina Palms</a> / North Miami Beach, FL 33162
+                <a href="https://goo.gl/maps/b3Zu6HbD5vBFqsNJ8" class="gallery__under-images-link">
+                  Marina Palms
+                </a>
+                / North Miami Beach, FL 33162
               </p>
             </div>
             <div class="gallery__images-row-2">
@@ -140,7 +145,10 @@
                 >
               </div>
               <p class="gallery__under-images-text">
-                <a href="#" class="gallery__under-images-link">Edition Residens</a> / Miami Beach, FL 33139
+                <a href="https://goo.gl/maps/EHsFXHteT1X7y89EA" class="gallery__under-images-link">
+                  Edition Residences
+                </a>
+              / Miami Beach, FL 33139
               </p>
             </div>
             <div class="gallery__images-row-3">
@@ -157,7 +165,10 @@
                 >
               </div>
               <p class="gallery__under-images-text">
-                <a href="#" class="gallery__under-images-link">Faena House</a> / Miami Beach, FL 33140
+                <a href="https://goo.gl/maps/DgH3jteANXLP6iQY6" class="gallery__under-images-link">
+                  Faena House
+                </a>
+              / Miami Beach, FL 33140
               </p>
             </div>
             <div class="gallery__view-all-btn-wrapper">
@@ -266,24 +277,28 @@
             </svg>
           </div>
         </div>
-        <section class="main__contact-us contact-us">
+        <form
+          action="#"
+          method="GET"
+          class="main__contact-us contact-us"
+        >
           <div class="contact-us__container">
             <div class="contact-us__contacts-wrapper">
               <div class="contact-us__contacts-phone-email-wrapper">
-                <div class="contact-us__contacts-item">
+                <a href="tel:+123455555555" class="contact-us__contacts-item">
                   <span class="contact-us__grey-legend">Phone</span>
                   <span class="contact-us__inscription">+1 234 5555-55-55</span>
-                </div>
-                <div class="contact-us__contacts-item">
+                </a>
+                <a href="mailto:hello@miami.com" class="contact-us__contacts-item">
                   <span class="contact-us__grey-legend">Email</span>
                   <span class="contact-us__inscription">hello@miami.com</span>
-                </div>
+                </a>
               </div>
               <div class="contact-us__contacts-adress-wrapper">
-                <div class="contact-us__contacts-item">
+                <a href="https://goo.gl/maps/raYhTV9pqwidy2mJ8" class="contact-us__contacts-item">
                   <span class="contact-us__grey-legend">Address</span>
                   <span class="contact-us__inscription">400 first ave. n.<br>suite 700<br>Minneapolis, MN <br> 55401</span>
-                </div>
+                </a>
               </div>
             </div>
             <div class="contact-us__form-wrapper">
@@ -306,15 +321,17 @@
               <div class="contact-us__form-message">
                 <textarea class="contact-us__form-input" placeholder="Message"></textarea>
               </div>
-              <button class="contact-us__form-btn">Consultation</button>
+              <button type="submit" class="contact-us__form-btn">Consultation</button>
             </div>
           </div>
-        </section>
+        </form>
         <!--#endregion-->
       </div>
     </main>
     <footer class="footer">
-      <div class="footer__miami-logo"></div>
+      <a href="#" class="footer__miami-logo-link">
+        <div class="footer__miami-logo"></div>
+      </a>
     </footer>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>

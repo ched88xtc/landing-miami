@@ -23,11 +23,10 @@
     top: 0;
     bottom: 0;
     padding: 140px 120px 20px;
-    background: #0075ff;
+    background: $scndryColor;
     width: 100%;
     left: -100%;
     transition: left 500ms;
-  
   }
   
   &__nav.animate {
@@ -61,7 +60,7 @@
   }
 
   &__phone-number {
-    color: #fff;
+    color: $primeWhite;
     letter-spacing: 2px;
     font-size: 14px;
     font-weight: 700;
@@ -88,7 +87,7 @@
   
   &__miami-title {
     display: flex;
-    color: #fff;
+    color: $primeWhite;
     position: absolute;
     bottom: 100px;
     left: 120px;
@@ -103,7 +102,7 @@
     top: -24px;
     height: 2px;
     width: 40px;
-    background-color: #fff;
+    background-color: $primeWhite;
     border-radius: 1px;
   }
   
@@ -118,7 +117,7 @@
 
   &__top.top-active {
     transition-delay: 400ms;
-    background-color: #0075ff;
+    background-color: $scndryColor;
     position: relative;
   }
 
@@ -139,11 +138,12 @@
 
   &__link {
     margin-bottom: 40px;
+ 
   }
   
   &__item {
     text-decoration: none;
-    color: #fff;
+    color: $primeWhite;
     position: relative;
     padding: 10px 0;
   
@@ -154,7 +154,7 @@
       height: 2px;
       left: 50%;
       position: absolute;
-      background: #fff;
+      background: $primeWhite;
       transition: width 0.3s ease 0s, left 0.3s ease 0s;
       width: 0;
     }
@@ -169,7 +169,7 @@
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 2px;
-    color: #fff;
+    color: $primeWhite;
   }
 
   &__phone-number {
@@ -184,7 +184,7 @@
   padding-bottom: 10px;
   position: relative;
   text-decoration: none;
-  color: #fff;
+  color: $primeWhite;
 
   &:after {
     position: absolute;
@@ -195,7 +195,7 @@
     left: 0;
     right: 0;
     width: 100%;
-    background: #fff;
+    background: $primeWhite;
   }
 
 }
@@ -209,7 +209,7 @@
     width: 35px;
     position: relative;
     height: 4px;
-    background: #fff;
+    background: $primeWhite;
     display: block;
     transition: 0.3s;
     border-radius: 5px;
@@ -260,7 +260,7 @@
   .header__miami-title {
     bottom: 20px;
     left: 20px;
-    font-size: 50px;
+    font-size: 46px;
     line-height: 45px;
   }
   .header__burgermenu {
