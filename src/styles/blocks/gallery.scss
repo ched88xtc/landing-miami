@@ -36,6 +36,11 @@
 
   &__under-images-link {
     color: $scndryColor;
+    transition: color 300ms;
+
+    &:hover {
+      color: #004492;
+    }
   }
 
   &__view-all-btn-wrapper {
